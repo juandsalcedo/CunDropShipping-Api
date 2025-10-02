@@ -1,4 +1,5 @@
 using CunDropShipping.Api.Domain;
+using CunDropShipping.Api.Infraestructure.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace CunDropShipping.Api.Infraestructure;
@@ -9,5 +10,5 @@ public class ClientDbContext  : DbContext
     {
         
     }
-    public DbSet<DomainEntityClient> Clients { get; set; }
+    public DbSet<Client> Clients { get; set; }
 }

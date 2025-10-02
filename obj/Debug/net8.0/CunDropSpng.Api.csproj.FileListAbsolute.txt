@@ -156,3 +156,4 @@ C:\Users\Juan\RiderProjects\CunDropShipping\CunDropSpng.Api\bin\Debug\net8.0\tr\
 C:\Users\Juan\RiderProjects\CunDropShipping\CunDropSpng.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Juan\RiderProjects\CunDropShipping\CunDropSpng.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Juan\RiderProjects\CunDropShipping\CunDropSpng.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Juan\RiderProjects\CunDropShipping\CunDropSpng.Api\obj\Debug\net8.0\CunDropSpng.Api.sourcelink.json

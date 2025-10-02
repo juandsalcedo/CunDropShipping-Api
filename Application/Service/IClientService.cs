@@ -5,6 +5,6 @@ namespace CunDropShipping.Api.Application;
 
 public interface  IClientService
 {
-    List<ClientDto> GetAllClients();
+    List<DomainEntityClient> GetAllClients();
    
 }

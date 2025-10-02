@@ -3,7 +3,7 @@ using CunDropShipping.Api.Domain;
 
 namespace CunDropShipping.Api.Application;
 
-public interface IClientRepository_cs_
+public interface IClientRepository
 {
     List<DomainEntityClient> GetAll();
 }

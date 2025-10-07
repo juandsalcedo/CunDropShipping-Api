@@ -56,4 +56,5 @@ public class InfrastructureMapperImp : IInfraestructureMapper
             return domainEntityList.Select(toInfraestructureClientDto).ToList();
         }
     }
+        
 }

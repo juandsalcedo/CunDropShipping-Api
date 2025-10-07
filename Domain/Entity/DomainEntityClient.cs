@@ -10,5 +10,18 @@ public class DomainEntityClient
     public string Address { get; set; }
     
     public DateTime RegistrationDate { get; set; }
-    
+
+    public void ChangeFullName(string newFullName)
+    {
+        if (string.IsNullOrWhiteSpace(newFullName))
+        {
+            //error en caso tal de haber "nombres vacios"
+            throw new ArgumentNullException("El nombre completo no puede estar vacío" +
+                                            " o contener solo espacios.");
+        }
+        this.FullName = newFullName;
+    }
 }
+
+
+

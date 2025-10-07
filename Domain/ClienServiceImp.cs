@@ -21,6 +21,22 @@ namespace CunDropShipping.Api.Application.Service
         {
             return _repository.GetAll();
         }
+        public void UpdateClientFullName(int id, string newFullName)
+        {
+            // Busca el cliente usando la nueva herramienta del repositorio.
+            var clientToUpdate = _repository.GetById(id);
+
+            // Si lo encontramos, continuamos con la lógica.
+            if (clientToUpdate != null)
+            {
+                //Usamos el método del Dominio para aplicar la regla de negocio (cambiar el nombre).
+                clientToUpdate.ChangeFullName(newFullName);
+                
+                // El repository guarda las actualizaciones en la base de datos.
+                _repository.SaveChanges();
+            }
+           
+        }
     }
 }
 

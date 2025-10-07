@@ -6,5 +6,7 @@ namespace CunDropShipping.Api.Application;
 public interface  IClientService
 {
     List<DomainEntityClient> GetAllClients();
+    
+    void UpdateClientFullName(int id, string fullName);
    
 }

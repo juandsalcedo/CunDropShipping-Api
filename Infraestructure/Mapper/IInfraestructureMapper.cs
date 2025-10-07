@@ -10,5 +10,5 @@ public interface IInfraestructureMapper
 
     Client toInfraestructureClientDto(DomainEntityClient domainEntity);
     List<Client> toInfraestructureClientDtoList(List<DomainEntityClient> domainEntityList);
-
+    
 }

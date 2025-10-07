@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CunDropSpng.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97b80f6552646dd2c2c0ce13ccbccbd36cd184c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5dfd5100691cf4e412938e15fbe095d85f0db0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CunDropSpng.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CunDropSpng.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
